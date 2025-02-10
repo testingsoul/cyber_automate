@@ -4,10 +4,6 @@ The aim of this project is to develop a demo merging the following concepts:
 - Testing
 - Cybersecurity
 
-This project has been published during AutomationSTAR Conference 2024 in the presentation: 
-
-**"Raising the Testing Bar with Cybersecurity!"**
-
 ## Tools Involved
 
 - Code editor: VSCode
