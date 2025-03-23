@@ -39,7 +39,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: acceptance-tests-results
-        path: test/output/*.xml
+        path: test/output/*
         retention-days: 1
     - name: Run security tests
       run: |
@@ -49,7 +49,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: security-tests-results
-        path: test/output/*.xml
+        path: test/output/*
         retention-days: 1
 
   publish-acceptance-test-results:
@@ -75,7 +75,7 @@ jobs:
       - name: Publish Acceptance Test Results
         uses: EnricoMi/publish-unit-test-result-action/linux@v2
         with:
-          files: acceptance-tests-results/*.xml
+          files: acceptance-tests-results/*
           comment_title: "Acceptance Tests Results"
 
   publish-security-test-results:
@@ -101,6 +101,6 @@ jobs:
       - name: Publish Security Test Results
         uses: EnricoMi/publish-unit-test-result-action/linux@v2
         with:
-          files: security-tests-results/*.xml
+          files: security-tests-results/*
           comment_title: "Security Tests Results"
 
