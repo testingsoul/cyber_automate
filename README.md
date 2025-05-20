@@ -19,13 +19,13 @@ The aim of this project is to develop a demo merging the following concepts:
 
 ## Initial configuration
 
-1. Replace `properties.cfg` file with `clean-properties.cfg`
+1. Replace `test/conf/properties.cfg` file with `test/conf/clean-properties.cfg`
 2. Create a Porswigger account to access the labs
 3. Add your credentials to `properties.cfg` file:
     ```text
     [Test]
     url: https://portswigger.net
-    user: <USER>
+    username: <USER>
     password: <PASSWORD>
     xss_lab_1: web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded
     sqli_lab_1: web-security/sql-injection/lab-retrieve-hidden-data
