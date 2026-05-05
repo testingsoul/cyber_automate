@@ -38,6 +38,3 @@ class SQLiLabPageObject(PageObject):
         """
         current_url = self.driver.current_url
         self.driver.get(f'{current_url}{sqli_str}')
-
-
-

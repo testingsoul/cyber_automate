@@ -17,6 +17,7 @@ The aim of this project is to develop a demo merging the following concepts:
 - Test development: Toolium - https://github.com/Telefonica/toolium
 - SUT: Portswigger Labs - https://portswigger.net/
 
+
 ## Initial configuration
 
 1. Replace `test/conf/properties.cfg` file with `test/conf/clean-properties.cfg`

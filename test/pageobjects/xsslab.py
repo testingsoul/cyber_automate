@@ -45,4 +45,3 @@ class XSSLabPageObject(PageObject):
             return True
         except NoAlertPresentException:
             return False
-

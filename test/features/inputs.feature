@@ -5,7 +5,7 @@ Background:
 
   @security
   Scenario Outline: Force XSS through input
-   Given I open XSS laboratory
+    Given I open XSS laboratory
     When I search the value "<value>"
     Then there are no alerts in browser
 
@@ -14,7 +14,7 @@ Background:
       | <script>alert('Crash WEB')</script> |
 
   Scenario Outline: Check valid values in input
-   Given I open XSS laboratory
+    Given I open XSS laboratory
     When I search the value "<value>"
     Then the filtered elements contain "<value>" value
 
